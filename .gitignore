@@ -1,0 +1,52 @@
+# .gitignore for Node (Angular) + .NET projects
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular / build outputs
+dist/
+.angular/
+out/
+build/
+
+# .NET build / user files
+bin/
+obj/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+
+# NuGet
+packages/
+.nuget/
+*.nupkg
+artifacts/
+
+# Rider / IDE
+.idea/
+
+# Database files
+*.db
+chat.db
+
+# Logs
+logs/
+*.log
+
+# Visual Studio database files
+*.dbmdl
+
+# Ignore local dev configuration that may hold secrets
+appsettings.Development.json
+
+# OS files
+.DS_Store
+Thumbs.db
